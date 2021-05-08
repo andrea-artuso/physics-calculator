@@ -23,18 +23,23 @@ int main(){
     switch (selector)
     {
     case 1:
+        printf("Hai selezionato VELOCITA'");
         speed();
         break;
     case 2:
+        printf("Hai selezionato FORZA CENTRIFUGA");
         f_centrifuga();
         break;
     case 3:
+        printf("Hai selezionato FORZA GRAVITAZIONALE");
         f_gravitazione();
         break;
     case 4:
+        printf("Hai selezionato ENERGIA CINETICA");
         e_cinetica();
         break;
     case 5:
+        printf("Hai selezionato MOMENTO D'INERZIA");
         m_inerzia();
         break;
     default:
@@ -74,7 +79,7 @@ float f_centrifuga(){
     scanf("%f", &raggio);
 
     risultato = massa * pow(velocita, 2) / raggio;
-    printf("Il valore della forza centrifuga è %.2f N", risultato);
+    printf("Il valore della forza centrifuga e' %.2f N", risultato);
 }
 
 float f_gravitazione(){
