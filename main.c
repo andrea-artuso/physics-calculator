@@ -15,7 +15,6 @@ float speed(), f_centrifuga(), f_gravitazione(), e_cinetica(), m_inerzia();
 char *list[5] = {"1 - Velocita'", "2 - Forza centrifuga", "3 - Forza gravitazionale", "4 - Energia cinetica", "5 - Momento d'inerzia"};
 
 int main(){
-    int exit;
     printf("Formule di fisica\n");
     printf("Scrivi un numero da 1 a 5 per scegliere quale formula eseguire, se non sai quali formule sono disponibili scrivi 0: ");
     scanf("%d", &selector);
